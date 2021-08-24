@@ -1,6 +1,8 @@
-// force
-// Runtime: 53 ms, faster than 17.90% of Java online submissions for Two Sum.
-// Memory Usage: 39.1 MB, less than 76.12% of Java online submissions for Two Sum.
+/ * 
+    force
+    Runtime: 53 ms, faster than 17.90% of Java online submissions for Two Sum.
+    Memory Usage: 39.1 MB, less than 76.12% of Java online submissions for Two Sum.
+*/
 
 
 class Solution {
@@ -26,10 +28,11 @@ class Solution {
     }
 }
 
-// hashmap fail
-// Runtime: 31 ms, faster than 40.54% of Java online submissions for Two Sum.
-// Memory Usage: 40.5 MB, less than 13.34% of Java online submissions for Two Sum.
-
+/ * 
+    hashmap
+    Runtime: 31 ms, faster than 40.54% of Java online submissions for Two Sum.
+    Memory Usage: 40.5 MB, less than 13.34% of Java online submissions for Two Sum.
+*/
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> Diff = new HashMap<Integer, Integer>();
