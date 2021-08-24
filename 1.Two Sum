@@ -1,4 +1,4 @@
-# force
+// force
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {        
@@ -23,7 +23,8 @@ class Solution {
     }
 }
 
-# hashmap fail
+// hashmap fail
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> Diff = new HashMap<Integer, Integer>();
